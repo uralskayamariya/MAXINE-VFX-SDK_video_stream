@@ -29,7 +29,7 @@
 1. Установить [SDK](https://www.nvidia.com/ru-ru/geforce/broadcasting/broadcast-sdk/resources/):
     - [Ссылка](https://international.download.nvidia.com/Windows/broadcast/sdk/v0.6.5/nvidia_video_effects_sdk_installer_ampere.exe) для видеокарт NVIDIA GeForce RTX 30 или профессиональных графических процессоров NVIDIA RTX.
     - [Ссылка](https://international.download.nvidia.com/Windows/broadcast/sdk/v0.6.5/nvidia_video_effects_sdk_installer_turing.exe) для видеокарт NVIDIA GeForce RTX 20 или NVIDIA Quadro RTX.
-2. Установить Python >= 3.8
+2. Установить Python >= 3.8.
 3. В командной строке Windows:
     - Скачать текущий репозиторий: git clone https://github.com/uralskayamariya/MAXINE-VFX-SDK_video_stream.git
     - Перейти в папку текущего репозитория: cd MAXINE-VFX-SDK_video_stream
@@ -40,8 +40,8 @@
          - 2-Denoising
          - 3-Artifact Reduction
          - 4-Super Resolution (Допускается масштаб от размера входного изображения по вертикали 1.3333x, 1.5x, 2x, 3x или 4x.)
-      * Указать путь к папке с входным видео. Если положить видео в папку input в текущем каталоге, можно указать только его имя, например: input_video.mp4
-      * Указать путь к папке с выходным видео. Если хотите сохранить видео в папку output в текущем каталоге, можно указать только его имя, например: output_video.mp4. Папка output должна быть создана заранее.
+      * Указать путь к папке к входному видео. Если положить видео в папку input в текущем каталоге, можно указать только его имя, например: input_video.mp4
+      * Указать путь к папке к выходному видео. Если хотите сохранить видео в папку output в текущем каталоге, можно указать только его имя, например: output_video.mp4. Папка output должна быть создана заранее.
 
 # Документация
 * [NVIDIA Video Effects SDK Programming Guide](https://docs.nvidia.com/deeplearning/maxine/vfx-sdk-programming-guide/index.html)
